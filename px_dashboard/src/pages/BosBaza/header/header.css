@@ -1,0 +1,107 @@
+.header {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 35px;
+  background-color: rgb(97, 166, 240);
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
+  margin-bottom: 1px;
+}
+.containers {
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 0 auto;
+}
+.blog {
+  text-align: center;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.form-deta {
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deta-input {
+  width: 72px;
+}
+.text-input {
+  width: 220px;
+}
+.input-style {
+  height: 38px;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.section-card {
+  width: 350px;
+  font-size: 17px;
+}
+.btn-card {
+  width: 100%;
+  text-align: end;
+}
+
+.btn-nav {
+  width: 38px;
+  height: 38px;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+  background-color: white;
+}
+.btn-nav:active {
+  transform: translateY(2px);
+}
+.line {
+  width: 95%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  position: relative;
+  top: 18px;
+}
+@media screen and (max-width: 1100px) {
+  .text-input {
+    width: 140px;
+    font-size: 14px;
+  }
+  .deta-input {
+    width: 60px;
+  }
+  .section-card {
+    width: 150px;
+  }
+  .btn-nav {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 969px) {
+  .form-deta {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+  }
+  .TimeBox {
+    display: flex;
+
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

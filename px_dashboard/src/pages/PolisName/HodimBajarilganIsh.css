@@ -1,0 +1,28 @@
+.HeaderHodim {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.colorSelect {
+  background-color: #4473c5;
+  color: white;
+}
+.HRBajarilgan {
+  position: relative !important;
+  width: 100% !important;
+  height: 2px !important;
+  z-index: 331 !important;
+  background-color: #4473c5;
+}
+.form-detaBajargan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HodimHulosaspanBayon {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: 45px;
+  margin: 0 !important;
+  overflow-y: scroll !important;
+}
